@@ -30,6 +30,7 @@ def solve():
     # Solve Sudoku
     try:
         solution = solve_sudoku(grid)
+        
     except Exception as e:
         return jsonify({"error": f"Failed to solve Sudoku: {str(e)}"}), 500
 
