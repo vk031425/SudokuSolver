@@ -47,10 +47,10 @@ A set of 10 sample unsolved Sudoku images is included in the test_images folder 
 
 ## Features
 
-1)- Upload or drag-and-drop Sudoku images
-2)- Automatically detect Sudoku grid using image processing
-3)- Solve Sudoku using Python backtracking solver
-4)- Interactive React frontend displaying the solution
+1)- Upload or drag-and-drop Sudoku images.
+2)- Automatically detect Sudoku grid using image processing.
+3)- Solve Sudoku using Python backtracking solver.
+4)- Interactive React frontend displaying the solution.
 
 ## Tech Stack
 
