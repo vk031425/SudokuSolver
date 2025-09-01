@@ -3,7 +3,7 @@ def solve_sudoku(sudoku_list):
     if len(sudoku_list) != 81:
         raise ValueError("Sudoku list must have exactly 81 elements.")
 
-    # Step 1: Convert to 2D matrix
+    # Convert to 2D matrix
     grid = [sudoku_list[i*9:(i+1)*9] for i in range(9)]
 
     # Step 2: Solve using backtracking
