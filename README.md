@@ -1,17 +1,24 @@
-Hello Everyone Welcome to the repisotory. 
+# Sudoku Solver
 
-This is a fullstack Sudoku solver project that targets solving the sudoku via image-processing and backtracking.
+Welcome to this full-stack Sudoku Solver project!  
+This project allows you to solve Sudoku puzzles using **image processing** and **backtracking**.
 
-How to run:
-First open two seperate terminal one for running backend and another for frontend. I had used visual studio for this but you can also use powershell or comman prompt for this. I am assuming that you are using vs code for simplicity. Open the whole project folder in visual studio code.
-To run frontend first type : 1) cd Frontend  (This will change the directory from root to Frontend)
-After that type:             2) npm run dev  (You will get a url after running this command)
-                             3) Simply go to link and do ctrl+click to open the page. This will open the frontend website.
+---
 
+## How to Run
 
-To run backend : Open another new terminal and type 1) cd Backend. After that type 2) python app.py    --- This will run the backend locally. 
+You need to run **frontend** and **backend** in separate terminals. The instructions below assume you are using **VS Code**, but you can use any terminal (PowerShell, Command Prompt, etc.).
 
-After the you can test the project by uploading images. I have included a seperate test_images folder in the repisotory so that you can test the project.
+### 1. Frontend
 
-Thankyou!!
-Keep supporting.
+1. Open a terminal and navigate to the frontend folder:
+   ```bash
+   cd frontend
+
+2.Install dependencies (if not already installed):
+   npm install
+
+3.Start the frontend:
+   npm run dev
+   
+4.A URL will be displayed in the terminal. Press Ctrl + Click to open it in your browser.
