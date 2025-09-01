@@ -41,19 +41,18 @@ The backend will now run locally, ready to receive requests from the frontend.
 
 ## Testing the Project
 
--You can test the project by uploading your own Sudoku images.
+You can test the project by uploading your own Sudoku images.
+A set of 10 sample unsolved Sudoku images is included in the test_images folder for easy testing.
 
--A set of 10 sample unsolved Sudoku images is included in the test_images folder for easy testing.
 
-
-##Features
+## Features
 
 1)- Upload or drag-and-drop Sudoku images
 2)- Automatically detect Sudoku grid using image processing
 3)- Solve Sudoku using Python backtracking solver
-4)-Interactive React frontend displaying the solution
+4)- Interactive React frontend displaying the solution
 
-##Tech Stack
+## Tech Stack
 
 -Frontend: React, JavaScript, HTML, CSS
 -Backend: Python, Flask, OpenCV, TensorFlow
