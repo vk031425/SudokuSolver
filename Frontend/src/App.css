@@ -52,6 +52,15 @@
   align-items: center;
 }
 
+.icon{
+  width: 30px;
+  height: 30px;
+}
+.upload2-icon{
+  width: 20px;
+  height: 20px;
+}
+
 .button-row {
   display: flex;
   gap: 12px;
@@ -88,7 +97,8 @@
 
 .upload-icon {
   padding-top: 36%;
-  font-size: 36px;
+  height: 40px;
+  width: 40px;
 }
 
 .or-text {

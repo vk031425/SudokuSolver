@@ -1,6 +1,10 @@
 import { useState, useRef } from "react";
 import "./App.css";
 
+import uploadIcon from "./assets/icons/upload1.png";
+import upload2Icon from "./assets/icons/upload2.png";
+import sudokuIcon from "./assets/icons/sudoku.png";
+
 export default function App() {
   const [selectedImage, setSelectedImage] = useState(null);
   const [solution, setSolution] = useState(null);
@@ -68,9 +72,7 @@ export default function App() {
       if (res.ok) {
         setSolution(data.solution);
       } else {
-        alert(
-          "Failed to solve Sudoku! Please upload a valid Sudoku image."
-        );
+        alert("Failed to solve Sudoku! Please upload a valid Sudoku image.");
       }
     } catch (err) {
       console.error(err);
@@ -83,7 +85,10 @@ export default function App() {
   return (
     <div className="app-container">
       <header className="header">
-        <h1>📋 Sudoku Solver</h1>
+        <h1>
+          <img src={sudokuIcon} alt="Sudoku Icon" className="icon" /> Sudoku
+          Solver
+        </h1>
         <p>Solve Sudoku instantly from an image</p>
       </header>
 
@@ -99,7 +104,8 @@ export default function App() {
                 onChange={handleFileChange}
                 hidden
               />
-              📷 Upload Image
+              <img src={upload2Icon} alt="Upload" className="upload2-icon" /> Upload
+              Image
             </label>
           </div>
 
@@ -116,9 +122,9 @@ export default function App() {
               />
             ) : (
               <>
-                <div className="upload-icon">⬆️</div>
+                <img src={uploadIcon} alt="Upload Icon" className="upload-icon" />
                 <p>Drag & drop Sudoku image here</p>
-                <p>Min Res: 400x400px and sudoku image should not have any extra texts for better accuracy</p>
+                <p>Min Res: 400x400px (Image should be free from extra texts for better accuracy)</p>
               </>
             )}
           </div>
