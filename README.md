@@ -45,6 +45,7 @@ The backend will now run locally, ready to receive requests from the frontend.
 
 -A set of 10 sample unsolved Sudoku images is included in the test_images folder for easy testing.
 
+
 ##Features
 
 1)- Upload or drag-and-drop Sudoku images
