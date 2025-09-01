@@ -41,7 +41,7 @@ The backend will now run locally, ready to receive requests from the frontend.
 
 ## Testing the Project
 
-You can test the project by uploading your own Sudoku images.
+You can test the project by uploading your own Sudoku images.<br>
 A set of 10 sample unsolved Sudoku images is included in the test_images folder for easy testing.
 
 
@@ -59,4 +59,4 @@ A set of 10 sample unsolved Sudoku images is included in the test_images folder 
 -Deployment: Local
 
 Thank you for checking out this project!
-Feel free to ⭐ star the repository and leave feedback.
+Feel free to star the repository and leave feedback.
